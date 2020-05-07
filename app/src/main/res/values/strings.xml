@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">week11</string>
+    <string name="longText">Here\'s a textbox. You can edit the size of this this box and the text as well as make it bold, modify the number of rows etc on the settings page.</string>
+    <string name="draweropen">draweropen</string>
+    <string name="drawerclose">drawerclose</string>
+    <string name="settings">Settings</string>
+    <string name="rows">Number of rows</string>
+    <string name="applyChanges">Apply changes</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="modifyBox">Modify textbox</string>
+    <string name="insert">Display text</string>
+    <string name="width">Textbox width</string>
+    <string name="textSize">Text size</string>
+    <string name="bold">Bold text</string>
+    <string name="yes">Yes</string>
+    <string name="height">Textbox height</string>
+    <string name="editable">Editable textbox</string>
+    <string name="language">Change language</string>
+    <string name="english">English</string>
+    <string name="finnish">Finnish</string>
+    <string name="swedish">Swedish</string>
+</resources>

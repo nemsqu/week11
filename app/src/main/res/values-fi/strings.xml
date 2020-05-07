@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">week11</string>
+    <string name="longText">Tähän tulee tekstiä. Tekstistä voi tehdä isompaa tai pienempää, laatikon kokoa voi muuttaa, tekstin rivimäärää voi muuttaa sekä tekstistä voi tehdä lihavoitua asetukset-sivulla.</string>
+    <string name="draweropen">draweropen</string>
+    <string name="drawerclose">drawerclose</string>
+    <string name="settings">Asetukset</string>
+    <string name="rows">Rivien lukumäärä</string>
+    <string name="applyChanges">Lisää muutokset</string>
+    <string name="off">Estetty</string>
+    <string name="on">Sallittu</string>
+    <string name="modifyBox">Tekstikentän muokkaus</string>
+    <string name="insert">Syötä teksti</string>
+    <string name="width">Tekstiruudun leveys</string>
+    <string name="textSize">Tekstin koko</string>
+    <string name="bold">Lihavoitu teksti</string>
+    <string name="yes">Kyllä</string>
+    <string name="height">Tekstiruudun korkeus</string>
+    <string name="editable">Muokattava tekstikenttä</string>
+    <string name="language">Valitse kieli</string>
+    <string name="english">Englanti</string>
+    <string name="finnish">Suomi</string>
+    <string name="swedish">Ruotsi</string>
+</resources>

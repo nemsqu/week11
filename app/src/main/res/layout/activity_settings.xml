@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".SettingsActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/titleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insert"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/titleTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textSize"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/titleBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bold"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <TextView
+            android:id="@+id/titleBoxHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/height"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editBoxHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/titleBoxWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/width"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editBoxWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/titleRows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rows" />
+
+        <EditText
+            android:id="@+id/editRowNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="apply"
+            android:text="@string/applyChanges" />
+
+        <TextView
+            android:id="@+id/titleAllowChanges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modifyBox"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/off"
+            android:textOn="@string/on" />
+
+        <TextView
+            android:id="@+id/titleLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</ScrollView>
